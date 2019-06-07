@@ -48,7 +48,7 @@ const schema = {
   web3: {
     wsUrl: {
       doc: 'Websocket url',
-      default: 'ws://localhost:8546',
+      default: 'ws://localhost:11364',
       env: 'WEB3_WS_URL'
     }
   },
