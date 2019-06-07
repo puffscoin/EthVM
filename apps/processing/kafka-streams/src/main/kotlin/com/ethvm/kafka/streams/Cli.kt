@@ -127,7 +127,7 @@ class Cli : CliktCommand() {
     const val DEFAULT_AUTO_OFFSET = "earliest"
     const val DEFAULT_STREAMS_RESET = 0
     const val DEFAULT_STREAMS_STATE_DIR = "/tmp/kafka-streams"
-    const val DEFAULT_WEB3_WS_URL = "ws://localhost:8546"
-    const val DEFAULT_ETH_NET_CONFIG = "mainnet"
+    const val DEFAULT_WEB3_WS_URL = "ws://localhost:11364"
+    const val DEFAULT_PUFFS_NET_CONFIG = "mainnet"
   }
 }
