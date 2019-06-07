@@ -126,9 +126,9 @@ services:
     volumes:
       - ${PARITY_VOLUME_MOUNTPOINT}:/home/parity/.local/share/io.parity.ethereum/
     ports:
-      - 8545:8545
-      - 8546:8546
-      - 30303:30303
+      - 11363:11363
+      - 11364:11364
+      - 31313:31313
     # By default we have enabled a private ethereum network (amarok) to be used in development
     # If you want, also there's the option to use ropsten or even mainnet to test with real networks.
     # Just uncomment below line:
