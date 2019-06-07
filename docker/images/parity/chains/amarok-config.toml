@@ -8,12 +8,12 @@ port = 31313
 [rpc]
 port = 11363
 interface = "all"
-apis = ["web3", "eth", "net", "pubsub", "parity", "parity_pubsub", "traces", "rpc", "shh", "shh_pubsub", "personal"]
+apis = ["web3", "puffs", "net", "pubsub", "parity", "parity_pubsub", "traces", "rpc", "shh", "shh_pubsub", "personal"]
 
 [websockets]
 port = 11364
 interface = "all"
-apis = ["web3", "eth", "net", "pubsub", "parity", "parity_pubsub", "traces", "rpc", "shh", "shh_pubsub", "personal"]
+apis = ["web3", "puffs", "net", "pubsub", "parity", "parity_pubsub", "traces", "rpc", "shh", "shh_pubsub", "personal"]
 
 [mining]
 reseal_min_period = 0
