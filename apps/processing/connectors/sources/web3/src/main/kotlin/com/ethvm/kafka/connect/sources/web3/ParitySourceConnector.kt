@@ -53,7 +53,7 @@ class ParitySourceConnector : SourceConnector() {
   object Config {
 
     const val WS_URL_CONFIG = "ws.url"
-    const val WS_URL_DEFAULT = "ws://parity:8546"
+    const val WS_URL_DEFAULT = "ws://parity:11364"
     const val WS_URL_DOC = "Websocket of the rpc node"
 
     const val SCHEMA_REGISTRY_URL_CONFIG = "schema.registry.url"
